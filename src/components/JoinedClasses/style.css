@@ -1,0 +1,105 @@
+.joined {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .joined__list {
+    display: flex;
+    flex-direction: column;
+    height: 18.375rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 18.75rem;
+    background-color: #18202b;
+    border: 0.0625rem solid #dadce0;
+    -webkit-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .joined__imgWrapper {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #174ea6;
+  }
+  .joined__image {
+    /*background-image: url(https://media.istockphoto.com/photos/circuit-blue-board-background-copy-space-computer-data-technology-picture-id1340728386?b=1&k=20&m=1340728386&s=170667a&w=0&h=FQ7GuNOoq7JzCwb4YWJZ3iyMxky5hAaVnFf7VcQ-dA0=);
+    */
+    background-image: url('https://media.istockphoto.com/photos/teacher-desk-full-of-books-against-a-blackboard-background-whit-copy-picture-id1251272960?b=1&k=20&m=1251272960&s=170667a&w=0&h=Qmt1F9P1-XQB4DqLqMLHXbGxI4j_92CZkrAHukjJk3E=');
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size:contain;
+  }
+  .joined__container {
+    position: relative;
+  }
+  .joined__content {
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    height: 4.5rem;
+    padding: 1rem 1rem 0.75rem;
+    position: relative;
+  }
+  .joined__title {
+    color: #fff;
+    font-family: "Roboto";
+    text-decoration: none;
+  }
+  .joined__title h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .joined__title h2:hover {
+    color: #fff;
+  }
+  .joined__owner {
+    color: #fff;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+  }
+  .joined__avatar {
+    float: right;
+    /* height: 4.6875rem !important; */
+    height: 4.5rem;
+    position: relative !important;
+    margin-top: -3.09375rem !important;
+    margin-right:15px;
+    /* width: 4.6875rem !important; */
+    width:4.5rem;
+    text-align: left;
+  }
+  .icon{
+    /* margin-right: 15px; */
+    color: #fff;
+    cursor: pointer;
+  }
+  .joined__bottom {
+    margin-top: 40%;
+    display: flex;
+    color: #fff;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top: 0.2px solid #e0e0e0;
+    padding: 10px;
+  }
+  .joined__bottom > * {
+    margin: 50px 20px 0 0;
+  }
